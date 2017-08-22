@@ -5,37 +5,14 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="github"
-           fetch="https://github.com" />
-
-  <remote  name="gzosp"
-           fetch="https://github.com/GZOSP"
-           sync-c="true"
-           sync-f="true"
-           sync-j="8"
-           revision="8.0" />
-
   <default revision="refs/tags/android-8.0.0_r4"
            remote="aosp"
            sync-f="true"
            sync-c="true"
            sync-j="8" />
 
-<!-- GZOSP -->
-  <project path="manifest" name="manifest" remote="gzosp" />
-  <project path="build" name="build" remote="gzosp" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
 
-<!-- AOSP -->
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  <!-- AOSP -->
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -571,6 +548,9 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- GZOSP CAF manifest -->
+  <include name="gzosp_default.xml" />
 
   <!-- GZOSP CAF manifest -->
   <include name="caf_default.xml" />
