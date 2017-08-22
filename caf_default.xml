@@ -3,7 +3,8 @@
 
   <!-- Tesla remote -->
   <remote  name="tesla"
-           fetch="https://github.com/TeslaRom-N/" />
+           fetch="https://github.com/TeslaRom-N/"
+           revision="n7.1.2" />
 
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="tesla" revision="n7.1.2-caf" />
