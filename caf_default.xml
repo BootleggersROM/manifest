@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Tesla remote -->
+  <remote  name="tesla"
+           fetch="https://github.com/TeslaRom-N/" />
+
+  <!-- HardWare QCOM -->
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="tesla" revision="n7.1.2-caf" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="tesla" revision="n7.1-caf-8998" />
+  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="tesla" revision="n7.1-caf-8998" />
+  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" remote="tesla" revision="n7.1-caf-8998" />
+
+</manifest>
