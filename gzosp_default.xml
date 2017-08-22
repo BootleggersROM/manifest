@@ -23,6 +23,7 @@
   </project>
 
   <project path="manifest" name="manifest" remote="gzosp" />
+  <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
 
