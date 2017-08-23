@@ -43,6 +43,10 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="tesla" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tesla" />
 
+  <!-- External -->
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="tesla" />
+  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="tesla" />
+
   <!-- Ril -->
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="tesla" revision="n7.1.2-caf" />
 
