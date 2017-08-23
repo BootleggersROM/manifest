@@ -32,5 +32,6 @@
   <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
+  <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
 
 </manifest>
