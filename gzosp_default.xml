@@ -12,6 +12,7 @@
            revision="8.0" />
 
   <!-- GZOSP -->
+  <project path="manifest" name="manifest" remote="gzosp" />
   <project path="build/make" name="build" remote="gzosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -28,10 +29,10 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="manifest" name="manifest" remote="gzosp" />
-  <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="gzosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="gzosp" />
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
+  <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
 
 </manifest>
