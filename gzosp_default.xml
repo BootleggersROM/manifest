@@ -29,6 +29,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="gzosp" />
