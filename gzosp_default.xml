@@ -30,6 +30,7 @@
   </project>
 
   <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
