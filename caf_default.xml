@@ -47,8 +47,8 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="tesla" />
 
   <!-- External -->
-  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="tesla" />
-  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="tesla" />
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="gzosp" />
+  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="gzosp" />
 
   <!-- Gps -->
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="gzosp" />
