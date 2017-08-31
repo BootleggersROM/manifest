@@ -192,7 +192,6 @@
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk" />
   <project path="external/Microsoft-GSL" name="platform/external/Microsoft-GSL" groups="pdk" />
   <project path="external/minijail" name="platform/external/minijail" groups="pdk" />
-  <project path="external/mksh" name="platform/external/mksh" groups="pdk" />
   <project path="external/mmc-utils" name="platform/external/mmc-utils" groups="pdk" />
   <project path="external/mockftpserver" name="platform/external/mockftpserver" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk" />
@@ -232,7 +231,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/seccomp-tests" name="platform/external/seccomp-tests" groups="pdk" />
-  <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
