@@ -48,6 +48,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
+  <project path="system/qcom" name="system_qcom" groups="pdk" remote="gzosp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
   <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
