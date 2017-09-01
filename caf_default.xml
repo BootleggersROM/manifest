@@ -59,6 +59,9 @@
   <!-- Ril -->
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="gzosp" revision="8.0-caf" />
 
+  <!-- System QCOM Softapp -->
+  <project path="system/qcom" name="system_qcom" groups="pdk" remote="gzosp" />
+
   <!-- Wlan -->
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="gzosp" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" remote="gzosp" revision="8.0-caf" />
