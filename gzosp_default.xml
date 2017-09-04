@@ -33,9 +33,14 @@
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="gzosp" />
+  <project path="external/exfat" name="external_exfat" remote="gzosp" />
+  <project path="external/fuse" name="external_fuse" remote="gzosp" />
+  <project path="external/htop" name="external_htop" remote="gzosp" />
   <project path="external/json-c" name="external_json-c" remote="gzosp" />
+  <project path="external/libncurses" name="external_libncurses" remote="gzosp" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="gzosp" />
+  <project path="external/nano" name="external_nano" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
