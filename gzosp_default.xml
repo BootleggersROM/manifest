@@ -34,6 +34,7 @@
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="gzosp" />
   <project path="external/json-c" name="external_json-c" remote="gzosp" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="gzosp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
