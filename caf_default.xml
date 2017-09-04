@@ -48,8 +48,10 @@
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="gzosp" revision="8.0-caf" />
 
   <!-- External -->
+  <project path="external/brctl" name="external_brctl" remote="gzosp" />
   <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="gzosp" />
   <project path="external/libnfnetlink" name="external_libnfnetlink" remote="gzosp" />
+  <project path="external/powertop" name="external_powertop" remote="gzosp" />
 
   <!-- Gps -->
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="gzosp" />
@@ -69,9 +71,9 @@
 
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="tesla" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="tesla" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="gzosp" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="gzosp" />
-  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="tesla" />
+  <!--project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="tesla" />-->
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="gzosp" />
 
 </manifest>
