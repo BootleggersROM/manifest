@@ -44,6 +44,7 @@
 
   <!-- Device -->
   <project path="device/qcom/common" name="device_qcom_common" remote="gzosp" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="gzosp" />
 
   <!-- External -->
   <project path="external/brctl" name="external_brctl" remote="gzosp" />
