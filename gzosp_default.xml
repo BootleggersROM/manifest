@@ -55,6 +55,7 @@
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="gzosp" >
       <copyfile dest="hardware/gzosp/Android.bp" src="Android.bp"/>
   </project>
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="gzosp" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="gzosp" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="gzosp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
