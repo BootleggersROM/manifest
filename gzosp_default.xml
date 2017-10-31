@@ -80,7 +80,4 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
   <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
 
-  <!-- ThemeInterfacer -->
-  <project path="packages/apps/ThemeInterfacer" name="interfacer" remote="gzosp" />
-
 </manifest>
