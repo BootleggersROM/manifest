@@ -1,14 +1,23 @@
-GZOSP
+Bootleggers ROM
 ========
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/GZOSP/manifest.git -b 8.0
+	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo
+	
 
-Submitting Patches
-------------------
+to add stuff later soon
 
-We're open source, and patches are always welcome!
+Thanks section
+--------------
+Here's my thanks to people who made this possible:
+
+[*]Ground Zero ROMs Team
+
+Help the GZOSP Guys
+-------------------
+
+They've done a really stable source but you can help them to get it better!
 To do this, you will need an account setup with our gerrit server and a changeid hooks.
 To add the changeid hook in a project, use the following commands:
 
