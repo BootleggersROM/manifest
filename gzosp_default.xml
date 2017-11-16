@@ -6,6 +6,9 @@
 
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP" />
+           
+  <remote  name="boot"
+           fetch="https://github.com/BootleggersROM" />
 
   <default revision="8.0"
            remote="gzosp"
