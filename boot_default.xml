@@ -29,12 +29,12 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="gzosp" />
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="gzosp" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="bootleg" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
+  <project path="bionic" name="bionic" groups="pdk" remote="bootleg" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
@@ -54,7 +54,7 @@
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
-  <project path="frameworks/base" name="frameworks_base" remote="gzosp" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleg" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="gzosp" >
