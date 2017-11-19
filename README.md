@@ -12,12 +12,12 @@ Thanks section
 --------------
 Here's my thanks to people who made this possible:
 
-[*]Ground Zero ROMs Team
-[*]AOSPExtended
-[*]ABC ROMs
-[*]NitrogenOS
-[*]AICP
-[*]DirtyUnicorns
+* Ground Zero ROMs Team
+* AOSPExtended
+* ABC ROMs
+* NitrogenOS
+* AICP
+* DirtyUnicorns
 
 Help the GZOSP Guys
 -------------------
