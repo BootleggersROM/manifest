@@ -18,6 +18,7 @@ Here's my thanks to people who made this possible:
 * NitrogenOS
 * AICP
 * DirtyUnicorns
+* Lukas Koller (Camera Roll dev)
 
 Help the GZOSP Guys
 -------------------
