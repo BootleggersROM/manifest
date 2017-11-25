@@ -54,7 +54,7 @@
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
-  <project path="frameworks/base" name="frameworks_base" remote="bootleg" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleg" revision="oreo-rework" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="gzosp" >
@@ -66,13 +66,14 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="gzosp" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleg" />
+  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleg" revision="oreo-rework" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="gzosp" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="gzosp" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleg" />
+  <project name="ValidusOs/packages_services_OmniJaws" path="packages/services/OmniJaws"  remote="github" revision="8.0" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleg" revision="oreo-nodui" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="gzosp" />
@@ -86,6 +87,11 @@
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
-  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleg" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleg" revision="oreo-nodui" />
+
+<!-- TODO: Make our own -->
+<project name="ValidusOs/packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="github" revision="8.0"  />
+<!--<project name="ValidusOs/external_DUtils" path="external/DUtils" remote="github" revision="8.0" />
+<project name="ValidusOs/packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="8.0"  /> -->
 
 </manifest>
