@@ -82,10 +82,11 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="gzosp" />
   <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="gzosp" />
+  <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="gzosp" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="gzosp" />
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
-  <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="gzosp" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
