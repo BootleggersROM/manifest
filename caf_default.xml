@@ -47,7 +47,6 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="gzosp" />
 
   <!-- External -->
-  <project path="external/brctl" name="external_brctl" remote="gzosp" />
   <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="gzosp" />
   <project path="external/libnfnetlink" name="external_libnfnetlink" remote="gzosp" />
   <project path="external/powertop" name="external_powertop" remote="gzosp" />
