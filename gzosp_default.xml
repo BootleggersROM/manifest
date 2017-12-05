@@ -7,7 +7,7 @@
   <remote  name="gzosp"
            fetch="https://github.com/GZOSP" />
 
-  <default revision="8.0"
+  <default revision="8.1"
            remote="gzosp"
            sync-f="true"
            sync-c="true"
