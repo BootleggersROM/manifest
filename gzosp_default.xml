@@ -79,6 +79,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="gzosp" />
   <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="gzosp" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="gzosp" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="gzosp" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="gzosp" />
