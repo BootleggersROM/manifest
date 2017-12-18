@@ -42,6 +42,9 @@
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="gzosp" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="gzosp" revision="8.1-caf" />
 
+  <!-- camera -->
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="gzosp" />
+
   <!-- Device -->
   <project path="device/qcom/common" name="device_qcom_common" remote="gzosp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="gzosp" />
