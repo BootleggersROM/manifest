@@ -96,7 +96,7 @@
 
 <!-- TODO: Make our own -->
 <project name="ValidusOs/packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="github" revision="8.0"  />
-<!--<project name="ValidusOs/external_DUtils" path="external/DUtils" remote="github" revision="8.0" />
-<project name="ValidusOs/packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="8.0"  /> -->
-
+<project name="ValidusOs/external_DUtils" path="external/DUtils" remote="github" revision="8.0" />
+<project name="ValidusOs/packages_apps_DUI" path="packages/apps/DUI" remote="github" revision="8.0"  /> 
+<!---->
 </manifest>
