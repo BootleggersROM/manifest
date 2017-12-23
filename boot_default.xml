@@ -74,6 +74,7 @@
   <project path="packages/apps/DUI"  name="packages_apps_DUI" remote="bootleg" revision="oreo"  /> 
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="gzosp" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="gzosp" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="bootleg" revision="oreo" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="bootleg" revision="oreo"  />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws"  remote="bootleg" revision="oreo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleg" revision="oreo" />
