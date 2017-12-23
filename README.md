@@ -4,9 +4,13 @@ Bootleggers ROM
 To initialize your local repository, use this command:
 
 	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo
-	
 
-to add stuff later soon
+Then, be sure to add your device manifest in your local_manifests folder and finally, do:
+
+	repo sync -f --force-sync --no-clone-bundle -jx
+	(the x on jx it's the amount of cores you have)
+
+Also, just in case something went wrong for our side, or from your manifest or whatever, just add a `-q` in your repo sync command to see less lines and get into the issue more easily.
 
 Thanks section
 --------------
@@ -19,6 +23,11 @@ Here's my thanks to people who made this possible:
 * AICP
 * DirtyUnicorns
 * Lukas Koller (Camera Roll dev)
+* OmniROM
+* CyanogenMod/LineageOS
+* PixelExperience
+* PureNexus
+* merothh
 
 Help the GZOSP Guys
 -------------------
