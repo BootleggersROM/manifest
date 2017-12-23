@@ -39,7 +39,7 @@
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
-  <project name="external_DUtils" path="external/DUtils" remote="bootleg" revision="oreo" />
+  <project path="external/DUtils" name="external_DUtils" remote="bootleg" revision="oreo" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="gzosp" />
   <project path="external/exfat" name="external_exfat" remote="gzosp" />
   <project path="external/fuse" name="external_fuse" remote="gzosp" />
@@ -71,11 +71,11 @@
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="gzosp" />
-  <project name="packages_apps_DUI" path="packages/apps/DUI" remote="bootleg" revision="oreo"  /> 
+  <project path="packages/apps/DUI"  name="packages_apps_DUI" remote="bootleg" revision="oreo"  /> 
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="gzosp" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="gzosp" />
-  <project name="packages_apps_SlimRecents" path="packages/apps/SlimRecents" remote="bootleg" revision="oreo"  />
-  <project name="packages_services_OmniJaws" path="packages/services/OmniJaws"  remote="bootleg" revision="oreo" />
+  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="bootleg" revision="oreo"  />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws"  remote="bootleg" revision="oreo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleg" revision="oreo" />
   <project path="packages/wallpapers/MusicVisualization" name="packages_wallpapers_MusicVisualization" groups="pdk-fs" remote="bootleg" revision="oreo" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="gzosp" />
