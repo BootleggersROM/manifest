@@ -12,10 +12,27 @@ Then, be sure to add your device manifest in your local_manifests folder and fin
 
 Also, just in case something went wrong for our side, or from your manifest or whatever, just add a `-q` in your repo sync command to see less lines and get into the issue more easily.
 
+When everything is done, be sure to shishufy your device (prepare it with the bootleg.mk file and bootleg_device product and stuff, that generic thing) and then when you're ready you can:
+
+	. build/envsetup.sh
+	brunch bootleg_device
+	
+	(where it says device, it's your device codename)
+
+Also, a sidenote: This is explained on the updater-script but just to clarify: Unshishufied builds are UNOFFICIAL.
+
+
+Help from other devices
+-----------------------
+
+Look, my device doesn't have flash, so i couldn't add and test the flash-required gestures and features. The same happens with Fingerprint stuff, so if you want to add tweaks, features or help me to optimize the ROM, you can make pull request and help me out, will be really appreciated.
+
+
 Thanks section
 --------------
 Here's my thanks to people who made this possible:
 
+* Shishu (For being there)
 * Ground Zero ROMs Team
 * AOSPExtended
 * ABC ROMs
