@@ -45,6 +45,10 @@ Here's my thanks to people who made this possible:
 * PixelExperience
 * PureNexus
 * merothh
+* Resurrection Remix (Inspiration)
+* AOSiP
+* CrDroid
+* CypherOS
 
 Help the GZOSP Guys
 -------------------
