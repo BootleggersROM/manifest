@@ -40,6 +40,7 @@ Here's my thanks to people who made this possible:
 * AICP
 * DirtyUnicorns
 * Lukas Koller (Camera Roll dev)
+* fxckingdeathwish (for the amazing photos for wallpaper/headers)
 * OmniROM
 * CyanogenMod/LineageOS
 * PixelExperience
