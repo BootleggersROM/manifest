@@ -50,6 +50,7 @@ Here's my thanks to people who made this possible:
 * AOSiP
 * CrDroid
 * CypherOS
+* PureKat
 
 Help the GZOSP Guys
 -------------------
