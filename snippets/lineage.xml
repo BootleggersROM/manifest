@@ -8,6 +8,7 @@
   <!-- General -->
   <project path="art" name="android_art" remote="lineage" />
   <project path="build/blueprint" name="android_build_blueprint" remote="lineage" />
+  <project path="platform_testing" name="android_platform_testing" remote="lineage" />
 
   <!-- External -->
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />

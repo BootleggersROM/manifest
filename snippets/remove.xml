@@ -125,5 +125,6 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/test/mts" />
   <remove-project name="platform/test/vti/alert" />
+  <remove-project name="platform/platform_testing" />
   <remove-project name="platform/tools/ndkports" />
 </manifest>
