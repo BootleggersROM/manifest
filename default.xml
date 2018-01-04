@@ -531,8 +531,8 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="gzosp_default.xml" />
+  <!-- Bootleggers + GZOSP CAF manifest -->
+  <include name="boot_default.xml" />
 
   <!-- GZOSP CAF manifest -->
   <include name="caf_default.xml" />

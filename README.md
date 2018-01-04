@@ -1,14 +1,61 @@
-GZOSP
+Bootleggers ROM | Broken 8.1 Sources
 ========
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/GZOSP/manifest.git -b 8.1
+	repo init -u https://gitlab.com/Bootleggers-BrokenLab/manifest.git -b oreo.1
 
-Submitting Patches
-------------------
+Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
-We're open source, and patches are always welcome!
+	repo sync -f --force-sync --no-clone-bundle -jx
+	(the x on jx it's the amount of cores you have)
+
+Also, just in case something went wrong for our side, or from your manifest or whatever, just add a `-q` in your repo sync command to see less lines and get into the issue more easily.
+
+When everything is done, be sure to shishufy your device (prepare it with the bootleg.mk file and bootleg_device product and stuff, that generic thing) and then when you're ready you can:
+
+	. build/envsetup.sh
+	brunch bootleg_device
+	
+	(where it says device, it's your device codename)
+
+Also, a sidenote: This is explained on the updater-script but just to clarify: Unshishufied builds are UNOFFICIAL.
+
+
+Help from other devices
+-----------------------
+
+Look, my device doesn't have flash, so i couldn't add and test the flash-required gestures and features. The same happens with Fingerprint stuff, so if you want to add tweaks, features or help me to optimize the ROM, you can make pull request and help me out, will be really appreciated.
+
+
+Thanks section
+--------------
+Here's my thanks to people who made this possible:
+
+* Shishu (For being there)
+* Ground Zero ROMs Team
+* AOSPExtended
+* ABC ROMs
+* NitrogenOS
+* AICP
+* DirtyUnicorns
+* Lukas Koller (Camera Roll dev)
+* fxckingdeathwish (for the amazing photos for wallpaper/headers)
+* OmniROM
+* CyanogenMod/LineageOS
+* PixelExperience
+* PureNexus
+* merothh
+* Resurrection Remix (Inspiration)
+* AOSiP
+* CrDroid
+* CypherOS
+* PureKat
+
+Help the GZOSP Guys
+-------------------
+
+They've done a really stable source but you can help them to get it better!
 To do this, you will need an account setup with our gerrit server and a changeid hooks.
 To add the changeid hook in a project, use the following commands:
 
