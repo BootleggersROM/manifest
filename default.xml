@@ -504,7 +504,6 @@
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" />
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" remote="aosp" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="aosp" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk-fs" remote="aosp" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk-fs" remote="aosp" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,pdk-fs" remote="aosp" />
