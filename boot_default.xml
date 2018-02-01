@@ -33,7 +33,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="gzosp" />
-  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="gzosp" >
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="bootleg" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
