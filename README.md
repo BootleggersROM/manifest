@@ -3,7 +3,7 @@ Bootleggers ROM | Broken 8.1 Sources
 
 To initialize your local repository, use this command:
 
-	repo init -u https://gitlab.com/Bootleggers-BrokenLab/manifest.git -b oreo.1
+	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo.1
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
