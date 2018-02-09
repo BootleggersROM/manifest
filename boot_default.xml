@@ -51,6 +51,7 @@
   <project path="external/json-c" name="external_json-c" remote="gzosp" />
   <project path="external/libncurses" name="external_libncurses" remote="gzosp" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
+  <project path="external/libtextclassifier" name="external_libtextclassifier" remote="gzosp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="gzosp" />
   <project path="external/nano" name="external_nano" remote="gzosp" />
   <project path="external/roboto-fonts" name="external_roboto-fonts" groups="pdk" remote="bootleg" />
