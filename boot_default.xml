@@ -97,10 +97,10 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="bootleg" />
   <project path="packages/wallpapers/MusicVisualization" name="packages_wallpapers_MusicVisualization" groups="pdk-cw-fs,pdk-fs" remote="bootleg" revision="oreo" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="gzosp" />
-  <project path="system/core" name="system_core" groups="pdk" remote="gzosp" />
+  <project path="system/core" name="system_core" groups="pdk" remote="bootleg" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="gzosp" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="gzosp" />
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="gzosp" />
