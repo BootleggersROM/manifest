@@ -43,7 +43,7 @@
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="bootleg" />
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
   <project path="external/connectivity" name="external_connectivity" groups="pdk" remote="gzosp" />
-  <project path="external/DUtils" name="external_DUtils" remote="bootleg-backup" />
+  <project path="external/DUtils" name="external_DUtils" remote="bootleg" />
   <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="gzosp" />
   <project path="external/exfat" name="external_exfat" remote="gzosp" />
   <project path="external/fuse" name="external_fuse" remote="gzosp" />
@@ -61,7 +61,7 @@
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
-  <project path="frameworks/base" name="frameworks_base" remote="bootleg" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleg" revision="oreo.1-rework" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
@@ -79,7 +79,7 @@
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-cw-fs,pdk-fs" remote="bootleg" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="bootleg-backup" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="bootleg" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
