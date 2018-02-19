@@ -77,6 +77,7 @@
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="gzosp" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-cw-fs,pdk-fs" remote="bootleg" revision="oreo.1-rework"/>
+  <project path="packages/apps/BootlegOTA" name="packages_apps_BootlegOTA" groups="pdk-cw-fs,pdk-fs" remote="bootleg"/>
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="bootleg" />
