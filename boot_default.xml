@@ -84,6 +84,7 @@
   <project path="packages/apps/BootlegOTA" name="packages_apps_BootlegOTA" groups="pdk-cw-fs,pdk-fs" remote="bootleg" revision="oreo.1-nitro"/>
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="bootleg" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="bootleg" />
