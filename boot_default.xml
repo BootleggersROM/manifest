@@ -15,6 +15,10 @@
            fetch="https://gitlab.com/Bootleggers-BrokenLab"
            revision="oreo.1" />
 
+  <remote  name="bootleg-dev"
+           fetch="https://gitlab.com/BootleggersROM-Devices"
+           revision="oreo.1" />
+
   <default revision="8.1"
            remote="gzosp"
            sync-f="true"
