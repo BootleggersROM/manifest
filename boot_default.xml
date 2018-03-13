@@ -96,6 +96,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="bootleg" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleg" />
+  <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents" remote="bootleg" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" groups="pdk-fs" remote="gzosp" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" groups="pdk-fs" remote="bootleg" revision="oreo" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws"  remote="bootleg" revision="oreo" />
