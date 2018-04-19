@@ -1,4 +1,4 @@
-Bootleggers ROM | Broken 8.1 Sources
+Bootleggers ROM | 8.1 Sources
 ========
 
 To initialize your local repository, use this command:
@@ -14,8 +14,8 @@ Also, just in case something went wrong for our side, or from your manifest or w
 
 When everything is done, be sure to shishufy your device (prepare it with the bootleg.mk file and bootleg_device product and stuff, that generic thing) and then when you're ready you can:
 
-	. build/envsetup.sh
-	brunch bootleg_device
+	source build/envsetup.sh
+	brunch device
 	
 	(where it says device, it's your device codename)
 
