@@ -19,7 +19,16 @@ When everything is done, be sure to shishufy your device (prepare it with the bo
 	
 	(where it says device, it's your device codename)
 
-Also, a sidenote: This is explained on the updater-script but just to clarify: Unshishufied builds are UNOFFICIAL.
+Sidenote: You can use `brunch device` or use the following commands too.
+
+	source build/envsetup.sh
+	lunch bootleg_device-userdebug
+	mka bacon -jxxxxx
+	
+	(where it says device, it's your device codename. And you can use mka bacon or mka bootleg, it's all up to you.)
+
+
+Also, as another sidenote: This is explained on the updater-script but just to clarify: Unshishufied builds are UNOFFICIAL.
 
 
 Help from other devices
