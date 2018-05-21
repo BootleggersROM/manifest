@@ -65,7 +65,7 @@
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleg" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleg" revision="oreo.1" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="gzosp" />
