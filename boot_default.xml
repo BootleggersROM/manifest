@@ -16,7 +16,7 @@
            revision="oreo.1" />
 
   <remote  name="bootleg-dev"
-           fetch="https://gitlab.com/BootleggersROM-Devices"
+           fetch="https://github.com/BootleggersROM-Devices"
            revision="oreo.1" />
 
   <default revision="8.1"
