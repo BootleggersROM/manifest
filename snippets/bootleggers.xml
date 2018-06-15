@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="Bootleggers"
+          fetch="https://github.com/Bootleggers-Future/"
+          revision="refs/heads/master" />
+
+  <remote name="GitHub"
+          fetch="https://github.com/" />
+
+  <project path="build/make" name="build" groups="pdk" remote="Bootleggers" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="Bootleggers" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bionic" name="bionic" groups="pdk" remote="Bootleggers" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="Bootleggers" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="Bootleggers" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="Bootleggers" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="Bootleggers" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="Bootleggers" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="Bootleggers" />
+  <project path="system/media" name="system_media" groups="pdk" remote="Bootleggers" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="Bootleggers" />
+
+</manifest>
