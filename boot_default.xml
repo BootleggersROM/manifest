@@ -116,7 +116,7 @@
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="gzosp" />
   <project path="system/libhidl" name="system_libhidl" groups="pdk" remote="gzosp" />
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
-  <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="bootleg" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleg" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="gzosp" />
