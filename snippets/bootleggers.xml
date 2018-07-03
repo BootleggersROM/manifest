@@ -29,7 +29,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="bootleggers" />
   <project path="packages/apps/Launcher3" name="BootleggersROM/packages_apps_Launcher3" groups="pdk-fs" remote="github" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" groups="pdk-fs" remote="bootleggers" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" revision="nice" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="system/media" name="system_media" groups="pdk" remote="bootleggers" />
   <project path="vendor/bootleggers" name="nice_vendor_bootleggers" remote="bootleggers" />
