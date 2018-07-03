@@ -3,7 +3,7 @@ Bootleggers ROM | mm2wood sources, really unstable.
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/Bootleggers-fugure/manifest.git -b nice
+	repo init -u https://github.com/Bootleggers-Future/manifest.git -b nice
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
@@ -13,13 +13,6 @@ Then, be sure to add your device manifest in your local_manifests folder and fin
 Also, just in case something went wrong for our side, or from your manifest or whatever, just add a `-q` in your repo sync command to see less lines and get into the issue more easily.
 
 When everything is done, be sure to shishufy your device (prepare it with the bootleg.mk file and bootleg_device product and stuff, that generic thing) and then when you're ready you can:
-
-	source build/envsetup.sh
-	brunch device
-	
-	(where it says device, it's your device codename)
-
-~~Sidenote: You can use `brunch device` or use the following commands too.~~
 
 	source build/envsetup.sh
 	lunch bootleg_device-userdebug
