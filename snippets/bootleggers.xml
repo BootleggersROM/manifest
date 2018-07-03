@@ -21,7 +21,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="bionic" name="bionic" groups="pdk" remote="bootleggers" />
+  <project path="bionic" name="bionic" groups="pdk" remote="bootleggers" revision="nice" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleggers" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="nice" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
