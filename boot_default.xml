@@ -42,6 +42,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="art" groups="pdk" remote="gzosp" />
   <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="bootleg" />

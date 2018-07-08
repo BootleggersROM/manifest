@@ -7,7 +7,6 @@
            revision="refs/tags/android-8.1.0_r41"/>
 
   <!-- AOSP -->
-  <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
