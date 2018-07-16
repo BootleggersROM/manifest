@@ -40,7 +40,6 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="LineageOS" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="LineageOS" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="LineageOS" />
   <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="LineageOS" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="LineageOS" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="LineageOS" />
