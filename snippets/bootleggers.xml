@@ -38,6 +38,6 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" revision="nice" />
   <project path="system/media" name="system_media" groups="pdk" remote="bootleggers" />
-  <project path="vendor/bootleggers" name="nice_vendor_bootleggers" remote="bootleggers" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" revision="nice" />
 
 </manifest>
