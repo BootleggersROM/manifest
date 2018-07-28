@@ -31,6 +31,7 @@
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleggers" revision="nice" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" groups="pdk" remote="bootleggers" revision="oreo.1" />
   <project path="packages/apps/Launcher3" name="BootleggersROM/packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="oreo.1-nice" />
+  <project path="packages/apps/OmniJaws" name="BootleggersROM/packages_apps_OmniJaws" groups="pdk-fs" remote="github" revision="oreo.1" />
   <project path="packages/apps/OmniStyle" name="BootleggersROM/packages_apps_OmniStyle" groups="pdk-fs" remote="github" revision="oreo" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk-fs" remote="bootleggers" revision="nice" />
