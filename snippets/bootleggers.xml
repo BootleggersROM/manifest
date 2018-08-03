@@ -36,7 +36,7 @@
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk-fs" remote="bootleggers" revision="nice" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" revision="nice" remote="bootleggers" />
-  <project path="packages/apps/SlimRecents" name="BootleggersROM/packages_apps_SlimRecents" revision="nice" remote="github" />
+  <project path="packages/apps/SlimRecents" name="BootleggersROM/packages_apps_SlimRecents" revision="oreo.1" remote="github" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" revision="nice" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" revision="nice" />
   <project path="system/media" name="system_media" groups="pdk" remote="bootleggers" />
