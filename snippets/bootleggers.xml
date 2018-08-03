@@ -23,13 +23,13 @@
   </project>
   <project path="bionic" name="bionic" groups="pdk" remote="bootleggers" revision="nice" />
   <project path="external/roboto-fonts" name="BootleggersROM/external_roboto-fonts" revision="oreo.1" groups="pdk-fs" remote="github" />
-  <project path="external/DUtils" name="external_DUtils" groups="pdk" remote="bootleggers" revision="oreo.1" />
+  <project path="external/DUtils" name="BootleggersROM/external_DUtils" groups="pdk" revision="oreo.1" remote="github" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleggers" revision="nice" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="nice" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="bootleggers" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleggers" revision="nice" />
-  <project path="packages/apps/DUI" name="packages_apps_DUI" groups="pdk" remote="bootleggers" revision="oreo.1" />
+  <project path="packages/apps/DUI" name="BootleggersROM/packages_apps_DUI" groups="pdk" revision="oreo.1" remote="github"  />
   <project path="packages/apps/Launcher3" name="BootleggersROM/packages_apps_Launcher3" groups="pdk-fs" remote="github" revision="oreo.1-nice" />
   <project path="packages/apps/OmniJaws" name="BootleggersROM/packages_apps_OmniJaws" groups="pdk-fs" remote="github" revision="oreo.1" />
   <project path="packages/apps/OmniStyle" name="BootleggersROM/packages_apps_OmniStyle" groups="pdk-fs" remote="github" revision="oreo" />
