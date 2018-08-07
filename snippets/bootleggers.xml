@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="manifest" name="manifest" remote="bootleggers" />
+  <project path="art" name="art" groups="pdk" remote="bootleggers" />
+  <project path="bionic" name="bionic" groups="pdk" remote="bootleggers" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="bootleggers" />
+  <project path="build/make" name="build" groups="pdk" remote="bootleggers" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="bootleggers" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk,tradefed" remote="bootleggers" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="bootleggers" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleggers" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
+  <project path="frameworks/bootleggers" name="frameworks_bootleggers" remote="bootleggers" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="bootleggers" />
+  <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
+  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers" />
+  <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="bootleggers" />
+  <project path="packages/apps/SmartNavSettings" name="packages_apps_SmartNavSettings" remote="bootleggers" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
+  <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk" remote="bootleggers" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
+  <project path="packages/providers/WeatherClient" name="packages_apps_WeatherClient" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="bootleggers" />
+  <project path="system/bt" name="android_system_bt" remote="los" />
+  <project path="system/qcom" name="system_qcom" groups="pdk" remote="bootleggers" />
+  <project path="system/core" name="system_core" groups="pdk" remote="bootleggers-bff" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="bootleggers-bff" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="bootleggers" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleggers" />
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="bootleggers" />
+
+  <!-- HardWare QCOM -->
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
+<!--  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8084" /> -->
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8998" />
+<!--  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-845" />-->
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
+<!--  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8084" /> -->
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8998" />
+<!--  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-845" /> -->
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="los"/>
+<!--  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8084" /> -->
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8996" />
+  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8998" />
+<!--  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-845" /> -->
+
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="los" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="bootleggers" />
+
+  <!-- Broadcom Hardware -->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="los" />
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
+
+  <!-- Ant Wireless -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+
+  <!-- Packages -->
+
+  <!-- Device -->
+  <!--<project path="device/qcom/common" name="android_device_qcom_common" remote="los" revision="lineage-15.1" /> -->
+<!--  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers" /> -->
+
+  <!-- External -->
+  <project path="external/bash" name="android_external_bash" remote="los" />
+  <project path="external/brctl" name="external_brctl" remote="bootleggers" />
+<!--  <project path="external/powertop" name="android_external_powertop" remote="los" revision="lineage-15.1" /> -->
+  <project path="external/connectivity" name="android_external_connectivity" groups="pdk" remote="los" />
+  <project path="external/ebtables" name="external_ebtables" groups="pdk" remote="bootleggers" />
+  <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/json-c" name="android_external_json-c" remote="los" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="los" />
+<!--  <project path="external/libtar" name="android_external_libtar" remote="los" />-->
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
+  <project path="external/nano" name="android_external_nano" remote="los" />
+  <project path="external/openssh" name="android_external_openssh" remote="los" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
+  <project path="external/perfetto" name="external_perfetto" remote="bootleggers" />
+  <project path="external/p7zip" name="android_external_p7zip" remote="los" />
+  <project path="external/pigz" name="android_external_pigz" remote="los" />
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="bootleggers" />
+  <project path="external/rsync" name="android_external_rsync" remote="los" />
+  <project path="external/unrar" name="android_external_unrar" remote="los" />
+  <project path="external/vim" name="android_external_vim" remote="los" />
+  <project path="external/zip" name="android_external_zip" remote="los" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
+  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
+
+  <!-- HALs -->
+  <project path="hardware/custom/telephony" name="hardware_custom_telephony" groups="pdk" remote="bootleggers" revision="pasta"/>
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="los" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="bootleggers" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-16.0-caf" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="los" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="los" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="los" revision="lineage-16.0-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="los" revision="lineage-16.0-caf" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="los" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="los" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="los" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="los" />
+  <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
+<!-- <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="los" /> -->
+
+</manifest>
