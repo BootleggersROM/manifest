@@ -1,9 +1,9 @@
-Bootleggers ROM | mm2wood sources, really unstable.
+Bootleggers ROM | 8.1 Sources
 ========
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/Bootleggers-Future/manifest.git -b nice
+	repo init -u https://github.com/BootleggersROM/manifest.git -b oreo.1
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
@@ -15,10 +15,17 @@ Also, just in case something went wrong for our side, or from your manifest or w
 When everything is done, be sure to shishufy your device (prepare it with the bootleg.mk file and bootleg_device product and stuff, that generic thing) and then when you're ready you can:
 
 	source build/envsetup.sh
+	brunch device
+	
+	(where it says device, it's your device codename)
+
+Sidenote: You can use `brunch device` or use the following commands too.
+
+	source build/envsetup.sh
 	lunch bootleg_device-userdebug
 	mka bacon -jxxxxx
 	
-	(where it says device, it's your device codename. And you can use mka bacon ~~or mka bootleg~~, it's all up to you.)
+	(where it says device, it's your device codename. And you can use mka bacon or mka bootleg, it's all up to you.)
 
 
 Also, as another sidenote: This is explained on the updater-script but just to clarify: Unshishufied builds are UNOFFICIAL.
@@ -57,3 +64,6 @@ Here's my thanks to people who made this possible:
 * MatiHalperin
 * Project Xtended
 * Pixeldust Project
+* Firehound
+* The memedo community
+* And everybody who decided to give a choice to this ROM, really appreciate it a lot
