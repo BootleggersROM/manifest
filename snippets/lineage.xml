@@ -48,7 +48,6 @@
   <project path="system/core" name="android_system_core" groups="pdk" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="lineage" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="lineage" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="lineage" />
