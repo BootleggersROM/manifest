@@ -29,6 +29,7 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="bootleggers" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleggers"  />
+  <project path="packages/apps/BootlegOTA" name="packages_apps_BootlegOTA" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk"  remote="bootleggers"  />
   <project path="packages/apps/DUI" name="packages_apps_DUI" groups="pdk"  remote="bootleggers"  />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="bootleggers"  />
@@ -44,5 +45,8 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="bootleggers" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleggers"  />
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers"  />
+  <project path="vendor/bootleggers/ota" name="BootleggersROM-Devices/OTA" groups="pdk,tradefed" remote="github" revision="master" >
+    <linkfile src="ota_conf" dest="ota_conf" />
+  </project>
 
 </manifest>
