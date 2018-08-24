@@ -45,7 +45,6 @@
   <project path="platform_testing" name="android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" remote="lineage" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="lineage" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="lineage" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="lineage" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="lineage" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="lineage" />
