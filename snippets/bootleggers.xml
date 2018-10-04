@@ -39,8 +39,10 @@
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk-fs" remote="bootleggers"  />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs"  remote="bootleggers" />
   <project path="packages/apps/SlimRecents" name="packages_apps_SlimRecents"  remote="bootleggers" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers"  />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="bootleggers"  />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="bootleggers" /> 
   <project path="system/core" name="system_core" groups="pdk" remote="bootleggers" />
   <project path="system/media" name="system_media" groups="pdk" remote="bootleggers" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="bootleggers" />
