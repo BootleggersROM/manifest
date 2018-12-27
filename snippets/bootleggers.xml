@@ -37,7 +37,7 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk" remote="bootleggers" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="los" />
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="bootleggers" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/providers/WeatherClient" name="packages_apps_WeatherClient" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
