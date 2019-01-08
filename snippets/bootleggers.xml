@@ -49,6 +49,7 @@
   <project path="system/extras" name="system_extras" groups="pdk" remote="bootleggers-bff" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="bootleggers" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="bootleggers" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="bootleggers" />
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="bootleggers" />
 
@@ -159,7 +160,7 @@
   <project path="vendor/nxp/opensource/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" />
   <project path="vendor/nxp/opensource/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="bootleggers" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="los" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" />
 <!-- <project path="vendor/qcom/opensource/rcs-service" name="android_vendor_qcom_opensource_rcs-service" remote="los" /> -->
