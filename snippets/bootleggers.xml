@@ -103,7 +103,9 @@
 
   <!-- Device -->
   <!--<project path="device/qcom/common" name="android_device_qcom_common" remote="los" revision="lineage-15.1" /> -->
-<!--  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers" /> -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="bootleggers" />
+  <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers" />
 
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="los" />
