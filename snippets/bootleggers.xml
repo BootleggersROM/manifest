@@ -24,6 +24,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
   <project path="frameworks/bootleggers" name="frameworks_bootleggers" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="bootleggers" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="bootleggers" />
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" groups="pdk-fs" remote="bootleggers" />

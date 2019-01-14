@@ -65,6 +65,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/support" />
   <remove-project name="platform/frameworks/compile/mclinker" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/nxp/nfc" />
