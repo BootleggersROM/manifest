@@ -35,8 +35,10 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="bootleggers" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="bootleggers" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
+  <project path="packages/apps/ShishuOTA" name="packages_apps_ShishuOTA" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" groups="pdk" remote="bootleggers" />
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="bootleggers" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
