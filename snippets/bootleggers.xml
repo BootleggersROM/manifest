@@ -24,6 +24,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
   <project path="frameworks/bootleggers" name="frameworks_bootleggers" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="bootleggers" />
+  <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" groups="pdk" remote="bootleggers" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="bootleggers" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk" remote="bootleggers" />
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
@@ -36,6 +37,7 @@
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="bootleggers" />
+  <project path="packages/apps/Phonograph" name="packages_apps_Phonograph" remote="bootleggers" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="bootleggers" />
   <project path="packages/apps/ShishuOTA" name="packages_apps_ShishuOTA" remote="bootleggers" />
