@@ -18,6 +18,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="external/google" name="external_google" groups="pdk" remote="bootleggers" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk,tradefed" remote="bootleggers" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="bootleggers" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="bootleggers" />
