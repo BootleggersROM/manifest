@@ -50,6 +50,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="bootleggers" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="bootleggers" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="bootleggers" />
   <project path="system/bt" name="android_system_bt" remote="los" />
   <project path="system/qcom" name="system_qcom" groups="pdk" remote="bootleggers" />
   <project path="system/core" name="system_core" groups="pdk" remote="bootleggers-bff" />
