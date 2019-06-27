@@ -1,6 +1,9 @@
 Bootleggers ROM | Pastafrola (Android Pie) sources
 ========
 
+![SF Downloads Badge](https://img.shields.io/sourceforge/dm/bootleggersrom.svg?color=e52c5f&label=Shishufied%20downloads&style=for-the-badge&labelColor=121217&logo=sourceforge)
+![TG chat](https://img.shields.io/badge/Support-Telegram-%23e52c5f.svg?style=for-the-badge&logo=telegram&&labelColor=121217)
+
 To initialize your local repository, use this command:
 
 	repo init -u https://github.com/BootleggersROM/manifest.git -b pasta
