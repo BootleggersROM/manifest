@@ -65,6 +65,16 @@
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="bootleggers" />
 
   <!-- HardWare QCOM -->
+  <project path="hardware/qcom/sdm845/bt" name="android_hardware_qcom_sdm845_bt" remote="los" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="los">
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="los" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" remote="los" />
+  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" remote="los" />
+  <project path="hardware/qcom/sdm845/thermal" name="android_hardware_qcom_sdm845_thermal" remote="los" />
+  <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" remote="los" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
 <!--  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8084" /> -->
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8916" />
@@ -74,7 +84,7 @@
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8998" />
-<!--  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="los" revision="lineage-16.0-caf-845" />-->
+  <project path="hardware/qcom/audio-caf/sdm845" name="android_hardware_qcom_audio" revision="lineage-16.0-caf-845" remote="los" />
   <project path="hardware/qcom/audio-caf/sm8150" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-16.0-caf-8150" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
 <!--  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8084" /> -->
@@ -85,7 +95,7 @@
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8998" />
-<!--  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-845" /> -->
+  <project path="hardware/qcom/display-caf/sdm845" name="android_hardware_qcom_display" revision="lineage-16.0-caf-845" remote="los" />
   <project path="hardware/qcom/display-caf/sm8150" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8150" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="los"/>
 <!--  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8084" /> -->
@@ -96,7 +106,7 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8998" />
-<!--  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" groups="qcom,pdk" remote="los" revision="lineage-16.0-caf-845" /> -->
+  <project path="hardware/qcom/media-caf/sdm845" name="android_hardware_qcom_media" revision="lineage-16.0-caf-845" remote="los" />
   <project path="hardware/qcom/media-caf/sm8150" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf-8150" />
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers" />
