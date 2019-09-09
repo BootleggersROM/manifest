@@ -90,6 +90,8 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/external/libcups" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/perfetto" />
   <remove-project name="platform/external/roboto-fonts" />
@@ -105,6 +107,7 @@
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/security" />
