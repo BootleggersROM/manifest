@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bootleggers"
+           fetch="https://github.com/Bootleggers-BrokenLab"
+           revision="queso" />
+
+  <remote  name="bootleg-devices"
+           fetch="https://github.com/BootleggersROM-Devices"
+           revision="queso" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- General -->
+  <project path="bionic" name="bionic" remote="bootleggers" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="bootleggers" />
+  <project path="manifest" name="manifest" remote="bootleggers" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" remote="bootleggers">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="bootleggers">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <!--<project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers" />-->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy-um"/>
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers" />
+  <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers" />
+  <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="bootleggers" />
+
+  <!-- Framework -->
+  <project path="frameworks/av" name="frameworks_av" remote="bootleggers" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
+  <project path="frameworks/native" name="frameworks_native" remote="bootleggers" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" remote="bootleggers" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers" />
+  <project path="system/vold" name="system_vold" remote="bootleggers" />
+
+  <!-- Vendor -->
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" />
+
+</manifest>
