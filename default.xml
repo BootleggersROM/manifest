@@ -772,5 +772,6 @@
 
   <include name="snippets/remove.xml" />
   <include name="snippets/bootleggers.xml" />
+  <include name="snippets/lineage.xml" />
 
 </manifest>
