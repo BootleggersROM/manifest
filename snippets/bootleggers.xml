@@ -51,6 +51,9 @@
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" remote="bootleggers" clone-depth="1" />
+
   <!-- Packages repos -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
