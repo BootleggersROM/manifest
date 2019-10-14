@@ -39,6 +39,7 @@
   <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy-um"/>
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy"/>
 
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
