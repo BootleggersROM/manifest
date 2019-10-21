@@ -59,6 +59,7 @@
   <remove-project name="platform/external/python/pyopenssl" />
   <remove-project name="platform/external/rapidjson" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
