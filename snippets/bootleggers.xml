@@ -60,6 +60,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
+  <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="bootleggers" />
