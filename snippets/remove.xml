@@ -52,6 +52,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/ARMComputeLibrary" />
   <remove-project name="platform/external/libtextclassifier" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/openssh" />
   <remove-project name="platform/external/python/asn1crypto" />
   <remove-project name="platform/external/python/cffi" />

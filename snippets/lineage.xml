@@ -21,6 +21,7 @@
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" remote="lineage" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
