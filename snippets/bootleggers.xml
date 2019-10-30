@@ -44,7 +44,6 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers" />
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers" />
-  <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="bootleggers" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers" />
