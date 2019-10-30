@@ -41,7 +41,6 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy-um"/>
 
   <!-- Hardware -->
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers" />
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers" />
 
@@ -51,7 +50,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" remote="bootleggers" clone-depth="1" />
+  <project path="prebuilts/tools-bootleg" name="prebuilts_tools-bootleg" remote="bootleggers" clone-depth="1" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
@@ -63,7 +62,6 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="bootleggers" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers" />
   <project path="system/vold" name="system_vold" remote="bootleggers" />
 
   <!-- Vendor -->
