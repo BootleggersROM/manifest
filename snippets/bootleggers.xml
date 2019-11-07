@@ -41,24 +41,39 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy-um"/>
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy"/>
 
+  <!-- External -->
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="bootleggers" />
+
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="bootleggers" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="bootleggers" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="bootleggers" />
 
   <!-- Framework -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="bootleggers" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bootleggers" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/tools-bootleg" name="prebuilts_tools-bootleg" remote="bootleggers" clone-depth="1" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="bootleggers" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="bootleggers" />
+  <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" remote="bootleggers" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bootleggers" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="bootleggers" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers" />
 
