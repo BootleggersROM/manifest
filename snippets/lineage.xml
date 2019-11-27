@@ -115,6 +115,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="lineage" />
+  <project path="system/bpf" name="android_system_bpf" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" />
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
 
