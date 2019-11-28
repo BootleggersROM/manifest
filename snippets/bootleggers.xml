@@ -79,6 +79,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="bootleggers" />
+  <project path="system/netd" name="system_netd" remote="bootleggers" />
   <project path="system/vold" name="system_vold" remote="bootleggers" />
 
   <!-- Vendor -->
