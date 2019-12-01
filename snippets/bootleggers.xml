@@ -3,6 +3,7 @@
 
   <remote  name="bootleggers"
            fetch="https://github.com/Bootleggers-BrokenLab"
+           review="review.bootleggersrom.xyz"
            revision="queso" />
 
   <remote  name="bootleg-devices"
