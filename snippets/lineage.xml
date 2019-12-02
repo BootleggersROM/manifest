@@ -3,7 +3,7 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-17.0" />
+          revision="refs/heads/lineage-17.0" />
 
   <!-- General -->
   <project path="art" name="android_art" remote="lineage" />

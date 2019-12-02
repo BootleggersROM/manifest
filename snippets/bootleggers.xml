@@ -4,11 +4,11 @@
   <remote  name="bootleggers"
            fetch="https://github.com/Bootleggers-BrokenLab"
            review="review.bootleggersrom.xyz"
-           revision="queso" />
+           revision="refs/heads/queso" />
 
   <remote  name="bootleg-devices"
            fetch="https://github.com/BootleggersROM-Devices"
-           revision="queso" />
+           revision="refs/heads/queso" />
 
   <remote  name="github"
            fetch="https://github.com/" />
