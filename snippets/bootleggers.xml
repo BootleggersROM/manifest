@@ -70,6 +70,7 @@
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers" />
+  <project path="packages/apps/Phonograph" name="packages_apps_Phonograph" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bootleggers" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="bootleggers" />
