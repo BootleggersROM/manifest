@@ -44,6 +44,7 @@
 
   <!-- External -->
   <project path="external/tinyalsa" name="external_tinyalsa" remote="bootleggers" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers" />
 
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
