@@ -31,6 +31,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" remote="bootleggers" />
   <project path="build/soong" name="build_soong" remote="bootleggers">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
