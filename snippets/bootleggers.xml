@@ -84,6 +84,7 @@
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers" />
 
   <!-- System -->
+  <project path="system/bt" name="system_bt" remote="bootleggers" />
   <project path="system/core" name="system_core" remote="bootleggers" />
   <project path="system/netd" name="system_netd" remote="bootleggers" />
   <project path="system/vold" name="system_vold" remote="bootleggers" />
