@@ -73,6 +73,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers" />
   <project path="packages/apps/Phonograph" name="packages_apps_Phonograph" remote="bootleggers" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="bootleggers" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
