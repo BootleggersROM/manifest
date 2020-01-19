@@ -29,15 +29,23 @@
   <project path="external/pigz" name="android_external_pigz" remote="lineage" />
   <project path="external/rsync" name="android_external_rsync" remote="lineage" />
   <project path="external/selinux" name="android_external_selinux" remote="lineage" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="lineage" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="lineage" />
 
   <!-- Hardware -->
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="lineage" />
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="lineage" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="lineage" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="lineage" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="lineage" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="lineage" />
@@ -115,7 +123,14 @@
   <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
 
   <!-- Packages-->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="lineage" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="lineage" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="lineage" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="lineage" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="lineage" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="lineage" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
