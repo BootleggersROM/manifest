@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="bootleggers"
-           fetch="https://github.com/Bootleggers-BrokenLab"
+           fetch="https://github.com/BootleggersROM"
            review="review.bootleggersrom.xyz"
            revision="refs/heads/queso" />
 
