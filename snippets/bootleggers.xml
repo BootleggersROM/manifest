@@ -70,6 +70,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="bootleggers" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
   <project path="packages/overlays/Shishufied" name="packages_overlays_Shishufied" remote="bootleggers" />
 
