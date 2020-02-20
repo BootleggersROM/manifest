@@ -62,6 +62,7 @@
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="bootleggers" />
   <project path="packages/apps/Phonograph" name="packages_apps_Phonograph" remote="bootleggers" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="bootleggers" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="bootleggers" />
