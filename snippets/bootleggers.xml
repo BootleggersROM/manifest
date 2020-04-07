@@ -68,6 +68,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bootleggers" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="bootleggers" />
