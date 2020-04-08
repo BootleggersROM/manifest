@@ -44,6 +44,7 @@
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers" revision="queso-legacy"/>
 
   <!-- External -->
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers" />
   <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers" />
 
   <!-- Hardware -->
