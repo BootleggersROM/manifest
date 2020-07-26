@@ -45,6 +45,7 @@
 
   <!-- External -->
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers" />
+  <project path="external/pulse" name="external_pulse" remote="bootleggers" />
   <project path="external/tinycompress" name="external_tinycompress" remote="bootleggers" />
 
   <!-- Hardware -->
