@@ -71,6 +71,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
+  <project path="packages/apps/ShishufiedHeaders" name="packages_apps_ShishufiedHeaders" remote="bootleggers" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
   <project path="packages/modules/PotatoPlugins" name="packages_modules_PotatoPlugins" remote="bootleggers" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bootleggers" />
@@ -89,5 +90,6 @@
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers" />
+  <project path="vendor/support" name="vendor_support" remote="bootleggers" />
 
 </manifest>
