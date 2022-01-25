@@ -47,6 +47,11 @@
   <project path="device/qcom/sepolicy_vndr" remote="bootleggers-lab" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" />
   <project path="device/qcom/sepolicy_vndr-legacy-um" remote="bootleggers-lab" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="tirimbino-legacy-um" />
 
+  <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="bootleggers-lab" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" />
+  <project path="external/sqlite" name="external_sqlite" remote="bootleggers-lab" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
