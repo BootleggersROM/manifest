@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="bootleggers"
+           fetch="https://github.com/BootleggersROM"
+           review="review.bootleggersrom.xyz"
+           revision="refs/heads/queso" />
+
+  <remote  name="bootleggers-lab"
+           fetch="https://github.com/Bootleggers-BrokenLab"
+           revision="refs/heads/tirimbino" />
+
+  <remote  name="bootleg-devices"
+           fetch="https://github.com/BootleggersROM-Devices"
+           revision="refs/heads/tirimbino" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- General -->
+  <project path="manifest" name="manifest" remote="bootleggers-lab" />
+  <project path="bionic" name="bionic" remote="bootleggers-lab" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="bootleggers-lab" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk" remote="bootleggers-lab" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="bootleggers-lab" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device 
+  <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers-lab" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy-um"/>
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="bootleggers-lab" />-->
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
+  <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
+  <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="bootleggers-lab" />
+  <project path="system/security" name="system_security" remote="bootleggers-lab" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="bootleggers-lab" />
+  <project path="system/vold" name="system_vold" remote="bootleggers-lab" />
+
+  <!-- Vendor -->
+  <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" />
+  <project path="vendor/shishufied" name="vendor_shishufied" remote="bootleggers-lab" revision="sambunimbo" />
+  <project path="vendor/support" name="vendor_support" remote="bootleggers" />
+</manifest>
