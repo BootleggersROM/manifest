@@ -53,11 +53,11 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/gptfdisk" />
   <!--<remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/libvpx" />
@@ -70,6 +70,12 @@
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
