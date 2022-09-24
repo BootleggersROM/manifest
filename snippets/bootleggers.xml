@@ -22,6 +22,7 @@
 
   <!-- General -->
   <project path="manifest" name="manifest" remote="bootleggers-lab" />
+  <project path="art" name="art" remote="bootleggers-lab" />
   <project path="bionic" name="bionic" remote="bootleggers-lab" />
   <project path="bootable/recovery" name="bootable_recovery" remote="bootleggers-lab" />
 
