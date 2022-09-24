@@ -34,6 +34,7 @@
 
   <!-- External -->
   <project path="external/gptfdisk" name="ArrowOS/android_external_gptfdisk" remote="github" revision="arrow-13.0" />
+  <project path="external/mksh" name="android_external_mksh" remote="lineage" />
  
   <!-- HALs -->
   <project path="hardware/qcom-caf/bootctrl" name="ArrowOS/android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="github" revision="arrow-13.0-caf" />
