@@ -39,12 +39,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- Device 
+  <!-- Device -->
   <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers-lab" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy-um"/>
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="bootleggers-lab" />-->
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="tirimbino-legacy-um"/>
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="bootleggers-lab" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
