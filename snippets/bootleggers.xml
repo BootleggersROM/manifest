@@ -57,6 +57,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers-lab" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers-lab" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
