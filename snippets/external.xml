@@ -3,11 +3,11 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-19.1" />
+          revision="lineage-20.0" />
 
   <!-- CodeLinaro additions -->
-  <project path="vendor/codeaurora/telephony" name="ArrowOS/android_vendor_codeaurora_telephony" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/nfc" name="ArrowOS/android_vendor_nxp_nfc" remote="github" revision="arrow-13.0" />
+  <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
+  <!--<project path="vendor/nxp/nfc" name="ArrowOS/android_vendor_nxp_nfc" remote="github" revision="arrow-13.0" />
   <project path="vendor/nxp/secure_element" name="ArrowOS/android_vendor_nxp_secure_element" remote="github" revision="arrow-13.0" />
   <project path="vendor/nxp/secure_element_extns" name="ArrowOS/android_vendor_nxp_secure_element_extns" remote="github" revision="arrow-13.0" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="ArrowOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="arrow-13.0" />
@@ -17,64 +17,100 @@
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="arrow-13.0-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="arrow-13.0-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-sn100x" />
-  <project path="vendor/qcom/opensource/audio" name="ArrowOS/android_vendor_qcom_opensource_audio" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="ArrowOS/android_vendor_qcom_opensource_audio-hal_st-hal" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="ArrowOS/android_vendor_qcom_opensource_display-commonsys" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="ArrowOS/android_vendor_qcom_opensource_display-commonsys-intf" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="ArrowOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/dataservices" name="ArrowOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/interfaces" name="ArrowOS/android_vendor_qcom_opensource_interfaces" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/healthd-ext" name="ArrowOS/android_vendor_qcom_opensource_healthd-ext" remote="github" revision="arrow-13.0"/>
-  <project path="vendor/qcom/opensource/power" name="ArrowOS/android_vendor_qcom_opensource_power" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="ArrowOS/android_vendor_qcom_opensource_thermal-engine" remote="github" revision="arrow-13.0" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-sn100x" /> -->
+  <project path="vendor/qcom/opensource/audio" remote="lineage" name="android_vendor_qcom_opensource_audio" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/display" remote="lineage" name="android_vendor_qcom_opensource_display" groups="qcom" />
+  <project path="vendor/qcom/opensource/fm-commonsys" remote="lineage" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" remote="lineage" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" />
+  <project path="vendor/qcom/opensource/dataservices" remote="lineage" name="android_vendor_qcom_opensource_dataservices" groups="qcom,waipio-vendor" />
+  <project path="vendor/qcom/opensource/interfaces" remote="lineage" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
+  <!--<project path="vendor/qcom/opensource/libfmjni" remote="lineage" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" />-->
+  <project path="vendor/qcom/opensource/power" remote="lineage" name="android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" />
+  <project path="vendor/qcom/opensource/thermal-engine" remote="lineage" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" />
+  <project path="vendor/qcom/opensource/usb" remote="lineage" name="android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/vibrator" name="ArrowOS/android_vendor_qcom_opensource_vibrator" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/usb" name="ArrowOS/android_vendor_qcom_opensource_usb" remote="github" revision="arrow-13.0" />
-  <project path="vendor/qcom/opensource/wfd-commonsys" name="ArrowOS/android_vendor_qcom_opensource_wfd-commonsys" remote="github" revision="arrow-13.0" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" remote="lineage" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" />
 
   <!-- External -->
+  <project path="external/ant-wireless/ant_client" name="ArrowOS/android_external_ant-wireless_ant_client" remote="github" revision="arrow-13.0" />
+  <project path="external/ant-wireless/ant_native" name="ArrowOS/android_external_ant-wireless_ant_native" remote="github" revision="arrow-13.0" />
+  <project path="external/ant-wireless/ant_service" name="ArrowOS/android_external_ant-wireless_ant_service" remote="github" revision="arrow-13.0" />
+  <project path="external/ant-wireless/hidl" name="ArrowOS/android_external_ant-wireless_hidl" remote="github" revision="arrow-13.0" />
+  <project path="external/e2fsprogs" name="ArrowOS/android_external_e2fsprogs" remote="github" revision="arrow-13.0" />
+  <project path="external/exfatprogs" name="ArrowOS/android_external_exfatprogs" remote="github" revision="arrow-13.0" />
+  <project path="external/f2fs-tools" name="ArrowOS/android_external_f2fs-tools" remote="github" revision="arrow-13.0" />
   <project path="external/gptfdisk" name="ArrowOS/android_external_gptfdisk" remote="github" revision="arrow-13.0" />
   <project path="external/mksh" name="android_external_mksh" remote="lineage" revision="lineage-20.0" />
+  <project path="external/ntfs-3g" name="ArrowOS/android_external_ntfs-3g" remote="github" revision="arrow-13.0" />
+  <project path="external/json-c" name="ArrowOS/android_external_json-c" remote="github" revision="arrow-13.0" />
+  <project path="external/selinux" name="ArrowOS/android_external_selinux" remote="github" revision="arrow-13.0" />
+  <project path="external/tinycompress" name="ArrowOS/android_external_tinycompress" remote="github" revision="arrow-13.0" />
+  <project path="external/tinyxml" name="ArrowOS/android_external_tinyxml" remote="github" revision="arrow-13.0" />
  
   <!-- HALs -->
-  <project path="hardware/qcom-caf/bootctrl" name="ArrowOS/android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="github" revision="arrow-13.0-caf" />
-  <project path="hardware/qcom-caf/common" name="ArrowOS/android_hardware_qcom-caf_common" remote="github" revision="arrow-13.0" >
+  <project path="hardware/qcom-caf/bootctrl" remote="lineage" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" />
+  <project path="hardware/qcom-caf/common" remote="lineage" name="android_hardware_qcom-caf_common" groups="qcom" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-    <!-- NXP -->
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-  <project path="hardware/qcom-caf/sm8150/audio" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-13.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-13.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-13.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-13.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-13.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-13.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8350/audio" name="ArrowOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="arrow-13.0-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/display" name="ArrowOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="arrow-13.0-caf-sm8350" />
-  <project path="hardware/qcom-caf/sm8350/media" name="ArrowOS/android_hardware_qcom_media" groups="qcom" remote="github" revision="arrow-13.0-caf-sm8350" />
-  <project path="hardware/qcom-caf/wlan" name="ArrowOS/android_hardware_qcom_wlan" groups="qcom_wlan" remote="github" revision="arrow-13.0-caf"/>
-  <project path="hardware/interfaces" name="ArrowOS/android_hardware_interfaces" remote="github" revision="arrow-13.0" />
+  <project path="hardware/qcom-caf/bt" remote="lineage" name="android_hardware_qcom_bt" groups="qcom,legacy-qcom" revision="lineage-20.0-caf" />
+  <project path="hardware/qcom-caf/msm8953/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,msm8953" revision="lineage-20.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8953/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,msm8953" revision="lineage-20.0-caf-msm8953" />
+  <project path="hardware/qcom-caf/msm8996/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8998/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" revision="lineage-20.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,sdm845" revision="lineage-20.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,sdm845" revision="lineage-20.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,msmnile" revision="lineage-20.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,msmnile" revision="lineage-20.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,kona" revision="lineage-20.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,kona" revision="lineage-20.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8350/audio" remote="lineage" name="android_hardware_qcom_audio" groups="qcom,lahaina" revision="lineage-20.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" remote="lineage" name="android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" remote="lineage" name="android_hardware_qcom_media" groups="qcom,lahaina" revision="lineage-20.0-caf-sm8350" />
+  <project path="hardware/qcom-caf/thermal" remote="lineage" name="android_hardware_qcom_thermal" groups="qcom,waipio-vendor" />
+  <project path="hardware/qcom-caf/vr" remote="lineage" name="android_hardware_qcom_vr" groups="qcom,sdm660" />
+  <project path="hardware/qcom-caf/wlan" remote="lineage" name="android_hardware_qcom_wlan" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="lineage" />
   <project path="hardware/libhardware" name="ArrowOS/android_hardware_libhardware" remote="github" revision="arrow-13.0" />
   <project path="hardware/libhardware_legacy" name="ArrowOS/android_hardware_libhardware_legacy" remote="github" revision="arrow-13.0" />
   <project path="hardware/ril" name="ArrowOS/android_hardware_ril" groups="pdk" remote="github" revision="arrow-13.0" />
+  <!--<project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" /> -->
 
   <!-- Frameworks -->
   <project path="frameworks/opt/telephony" name="ArrowOS/android_frameworks_opt_telephony" remote="github" revision="arrow-13.0" />
   <project path="frameworks/opt/net/ims" name="ArrowOS/android_frameworks_opt_net_ims" remote="github" revision="arrow-13.0" />
 
   <!-- Packages-->
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="lineage" revision="lineage-20.0" />
   <project path="packages/resources/ThemedIcons" name="FAMA-Android/packages_resources_ThemedIcons" revision="frostmix" remote="github">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
   </project>
@@ -84,6 +120,10 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="ArrowOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="github" revision="arrow-13.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ArrowOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="github" revision="arrow-13.0" />
   <project path="prebuilts/tools-bootleg" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
-  
+
+  <!-- System -->
+  <project path="system/extras" name="ArrowOS/android_system_extras" remote="github" revision="arrow-13.0" />
+  <project path="system/qcom" name="ArrowOS/android_system_qcom" remote="github" revision="arrow-13.0" />
+  <project path="system/tools/mkbootimg" name="ArrowOS/android_system_tools_mkbootimg" remote="github" revision="arrow-13.0" />
 
 </manifest>

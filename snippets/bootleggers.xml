@@ -42,15 +42,21 @@
 
   <!-- Device -->
   <project path="device/bootleg/sepolicy" name="device_bootleg_sepolicy" remote="bootleggers-lab" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="bootleggers-lab" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="sambunimbo-legacy"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="bootleggers-lab" revision="tirimbino-legacy-um"/>
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="bootleggers-lab" />
+  <project path="device/qcom/sepolicy" remote="bootleggers-lab" name="device_qcom_sepolicy" groups="qcom,qssi" />
+  <project path="device/qcom/sepolicy-legacy-um" remote="bootleggers-lab" name="device_qcom_sepolicy" groups="qcom,sdm660" revision="tirimbino-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" remote="bootleggers-lab" name="device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" remote="bootleggers-lab" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="tirimbino-legacy-um" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
+
+  <!-- Hardware -->
+  <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers-lab" revision="sambunimbo" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers-lab" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
@@ -60,6 +66,6 @@
 
   <!-- Vendor -->
   <project path="vendor/bootleggers" name="vendor_bootleggers" remote="bootleggers-lab" />
-  <project path="vendor/shishufied" name="vendor_shishufied" remote="bootleggers-lab" revision="sambunimbo" />
+  <project path="vendor/shishufied" name="vendor_shishufied" remote="bootleggers-lab" />
   <project path="vendor/support" name="vendor_support" remote="bootleggers" />
 </manifest>
