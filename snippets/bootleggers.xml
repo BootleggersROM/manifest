@@ -54,10 +54,22 @@
 
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers-lab" revision="sambunimbo" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers-lab" />
 
   <!-- Packages -->
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers-lab" />
+  <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers-lab">
+    <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
+    <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
+  </project>
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers-lab" />
+  <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers-lab" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers-lab" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers-lab" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers-lab" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
+  <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers-lab" />
