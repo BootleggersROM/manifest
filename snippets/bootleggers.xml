@@ -69,6 +69,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers-lab" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers-lab" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers-lab" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="bootleggers-lab" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers-lab" />
 
   <!-- System Repos -->
