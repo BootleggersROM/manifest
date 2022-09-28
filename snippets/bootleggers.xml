@@ -61,6 +61,8 @@
     <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
     <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
   </project>
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bootleggers-lab" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bootleggers-lab" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers-lab" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers-lab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
