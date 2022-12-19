@@ -56,6 +56,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers-lab" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers-lab" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers-lab" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bootleggers-lab" />
 
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers-lab" revision="sambunimbo" />

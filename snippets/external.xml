@@ -106,7 +106,6 @@
   <!--<project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" /> -->
 
   <!-- Frameworks -->
-  <project path="frameworks/opt/telephony" name="ArrowOS/android_frameworks_opt_telephony" remote="github" revision="arrow-13.0" />
   <project path="frameworks/opt/net/ims" name="ArrowOS/android_frameworks_opt_net_ims" remote="github" revision="arrow-13.0" />
 
   <!-- Packages-->
