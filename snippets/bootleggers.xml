@@ -10,6 +10,10 @@
            fetch="https://github.com/Bootleggers-BrokenLab"
            revision="refs/heads/tirimbino" />
 
+  <remote  name="gitlab-bootleggers-lab"
+           fetch="https://gitlab.com/Bootleggers-BrokenLab"
+           revision="refs/heads/tirimbino" />
+
   <remote  name="bootleg-devices"
            fetch="https://github.com/BootleggersROM-Devices"
            revision="refs/heads/tirimbino" />
@@ -50,6 +54,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="bootleggers-lab" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers-lab" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-bootleggers-lab" />
   <project path="external/sqlite" name="external_sqlite" remote="bootleggers-lab" />
 
   <!-- Frameworks -->
@@ -70,6 +75,7 @@
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bootleggers-lab" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bootleggers-lab" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers-lab" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="bootleggers-lab" />
   <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="bootleggers-lab" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="bootleggers-lab" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="bootleggers-lab" />
