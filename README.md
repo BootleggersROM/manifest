@@ -16,8 +16,7 @@ To initialize your local repository, use this command:
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
-	repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jx
-	(the x on jx it's the amount of cores you have)
+	repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j$(nproc --all)
 
 Also, just in case something went wrong for our side, or from your manifest or whatever, just add a `-q` in your repo sync command to see less lines and get into the issue more easily.
 
@@ -27,7 +26,7 @@ When everything is done, be sure to shishufy your device (prepare it with the bo
 
 	source build/envsetup.sh
 	lunch bootleg_device-userdebug
-	mka bacon -jxxxxx
+	mka bacon -j$(nproc --all)
 	
 	(where it says device, it's your device codename. And you can use mka bacon ~~or mka bootleg~~, it's all up to you.)
 
