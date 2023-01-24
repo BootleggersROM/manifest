@@ -123,6 +123,7 @@
 
   <!-- System -->
   <project path="system/extras" name="ArrowOS/android_system_extras" remote="github" revision="arrow-13.0" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
   <project path="system/qcom" name="ArrowOS/android_system_qcom" remote="github" revision="arrow-13.0" />
   <project path="system/tools/mkbootimg" name="ArrowOS/android_system_tools_mkbootimg" remote="github" revision="arrow-13.0" />
 
