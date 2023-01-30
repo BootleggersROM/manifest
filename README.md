@@ -3,16 +3,11 @@
 [![SF Downloads Badge](https://img.shields.io/sourceforge/dm/bootleggersrom.svg?color=e52c5f&label=Shishufied%20downloads&style=for-the-badge&labelColor=121217&logo=sourceforge)](https://sourceforge.net/projects/bootleggersrom/files/builds)
 [![TG chat](https://img.shields.io/badge/Support-Telegram-%23e52c5f.svg?style=for-the-badge&logo=telegram&&labelColor=121217)](https://t.me/keepthebootleg)
 
-
-### WARNING: THIS IS JUST FOR TESTING PURPOSES, DON'T EXPECT A FULLY STABLE BUILD.
-
-By initializing the repo with this source, you're completely acknowledge that you're on your own.
-
 ### Guide
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/Bootleggers-BrokenLab/manifest.git -b tirimbino
+	repo init -u https://github.com/BootleggersROM/manifest.git -b tirimbino
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 
@@ -36,7 +31,7 @@ Also, as another sidenote: This is explained on the updater-script but just to c
 
 ### Help from other devices
 
-If you got some commits missing for us, let us know on our telegram chat. Everything else, it's up to you at the time of building.
+If you got some commits missing for us, let us know on [our telegram chat](https://t.me/keepthebootleg). Everything else, it's up to you at the time of building.
 
 
 ### Thanks section
@@ -73,3 +68,5 @@ Here's my thanks to people who made this possible:
 * BlissROMs
 * The Memedo Testers team
 * Deepakjr_11
+* tribual
+* ouroboros420
