@@ -111,6 +111,7 @@
   <!-- Packages-->
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lineage" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="lineage" />
   <project path="packages/resources/ThemedIcons" name="FAMA-Android/packages_resources_ThemedIcons" revision="frostmix" remote="github">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
   </project>
