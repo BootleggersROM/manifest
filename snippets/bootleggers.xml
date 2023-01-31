@@ -69,7 +69,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bootleggers" />
 
   <!-- Hardware -->
-  <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" revision="sambunimbo" />
+  <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers" />
 
   <!-- Packages -->
