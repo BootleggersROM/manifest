@@ -122,5 +122,7 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <!-- <remove-project name="platform/system/update_engine" /> -->
   <remove-project name="platform/system/vold" />
+  <remove-project name="frameworks/libs/net" />
+  <remove-project name="packages/modules/Connectivity" />
 
 </manifest>

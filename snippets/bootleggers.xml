@@ -65,6 +65,7 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers" />
   <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
+  <project path="frameworks/libs/net" name="frameworks_libs_net" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="bootleggers" />
 
@@ -93,6 +94,7 @@
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="bootleggers" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="bootleggers" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers" />
 
