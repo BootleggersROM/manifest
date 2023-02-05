@@ -68,6 +68,7 @@
   <remove-project name="platform/external/zlib" /> -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/frameworks/opt/net/ims" />
@@ -111,6 +112,7 @@
   <remove-project name="platform/packages/apps/WallpaperPicker2" /> 
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
@@ -122,7 +124,5 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <!-- <remove-project name="platform/system/update_engine" /> -->
   <remove-project name="platform/system/vold" />
-  <remove-project name="frameworks/libs/net" />
-  <remove-project name="packages/modules/Connectivity" />
 
 </manifest>
