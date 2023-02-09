@@ -103,7 +103,7 @@
   <project path="hardware/libhardware" name="ArrowOS/android_hardware_libhardware" remote="github" revision="arrow-13.0" />
   <project path="hardware/libhardware_legacy" name="ArrowOS/android_hardware_libhardware_legacy" remote="github" revision="arrow-13.0" />
   <project path="hardware/ril" name="ArrowOS/android_hardware_ril" groups="pdk" remote="github" revision="arrow-13.0" />
-  <!--<project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" /> -->
+  <project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="ArrowOS/android_frameworks_opt_net_ims" remote="github" revision="arrow-13.0" />
