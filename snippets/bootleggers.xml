@@ -82,6 +82,7 @@
   </project>
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="bootleggers" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bootleggers" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="bootleggers" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="bootleggers" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="bootleggers" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="bootleggers" />
