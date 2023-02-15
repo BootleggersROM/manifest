@@ -71,6 +71,7 @@
 
   <!-- Hardware -->
   <project path="hardware/bootleg/interfaces" name="hardware_bootleg_interfaces" remote="bootleggers" />
+  <project path="hardware/bootleg/compat" name="hardware_bootleg_compat" remote="bootleggers" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers" />
 
   <!-- Packages -->
