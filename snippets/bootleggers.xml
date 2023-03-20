@@ -98,6 +98,7 @@
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="bootleggers" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="bootleggers" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="bootleggers" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="bootleggers" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers" />
 
   <!-- System Repos -->
