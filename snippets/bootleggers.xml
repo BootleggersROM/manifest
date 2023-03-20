@@ -75,7 +75,6 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="bootleggers" />
 
   <!-- Packages -->
-  <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="bootleggers" />
   <project path="packages/apps/BootlegDumpster" name="packages_apps_BootlegDumpster" remote="bootleggers">
     <linkfile src="res" dest="packages/apps/Settings/res-dumpster" />
     <linkfile src="src" dest="packages/apps/Settings/src_dumpster" />
