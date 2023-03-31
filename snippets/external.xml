@@ -103,7 +103,7 @@
   <project path="hardware/libhardware" name="ArrowOS/android_hardware_libhardware" remote="github" revision="arrow-13.0" />
   <project path="hardware/libhardware_legacy" name="ArrowOS/android_hardware_libhardware_legacy" remote="github" revision="arrow-13.0" />
   <project path="hardware/ril" name="ArrowOS/android_hardware_ril" groups="pdk" remote="github" revision="arrow-13.0" />
-  <!--<project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" /> -->
+  <project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" />
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="ArrowOS/android_frameworks_opt_net_ims" remote="github" revision="arrow-13.0" />
@@ -113,7 +113,7 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="lineage" />
   <project path="packages/apps/Etar" name="android_packages_apps_Etar" remote="lineage" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="lineage" />
-  <project path="packages/resources/ThemedIcons" name="FAMA-Android/packages_resources_ThemedIcons" revision="frostmix" remote="github">
+  <project path="packages/resources/ThemedIcons" name="FAMA-Android/packages_resources_ThemedIcons" revision="pixel" remote="github">
     <linkfile src="res" dest="packages/apps/Launcher3/res-icons" />
   </project>
 
