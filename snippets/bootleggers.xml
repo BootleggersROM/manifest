@@ -59,6 +59,7 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="bootleggers" />
   <project path="external/colorkt" name="external_colorkt" remote="bootleggers" />
   <project path="external/faceunlock" name="external_faceunlock" remote="gitlab-bootleggers" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="bootleggers" />
   <project path="external/sqlite" name="external_sqlite" remote="bootleggers" />
   <project path="external/themelib" name="external_themelib" remote="bootleggers" />
 
