@@ -105,6 +105,9 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="bootleggers" />
   <project path="packages/wallpapers/ShishufiedWalls" name="packages_wallpapers_ShishufiedWalls" remote="bootleggers" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="bootleggersrom/prebuilts_clang_host_linux-x86" remote="gitlab" revision="master" clone-depth="1" />
+
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers" />
   <project path="system/security" name="system_security" remote="bootleggers" />
