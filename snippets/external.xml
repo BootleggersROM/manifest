@@ -51,6 +51,8 @@
   <project path="external/selinux" name="ArrowOS/android_external_selinux" remote="github" revision="arrow-13.0" />
   <project path="external/tinycompress" name="ArrowOS/android_external_tinycompress" remote="github" revision="arrow-13.0" />
   <project path="external/tinyxml" name="ArrowOS/android_external_tinyxml" remote="github" revision="arrow-13.0" />
+  <project path="external/rust/crates/ring" name="yaap/external_rust_crates_ring" remote="github" revision="thirteen" />
+  <project path="external/rust/cxx" name="yaap/external_rust_cxx" remote="github" revision="thirteen" />
  
   <!-- HALs -->
   <project path="hardware/qcom-caf/bootctrl" remote="lineage" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-20.0-caf" />
