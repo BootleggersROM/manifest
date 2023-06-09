@@ -107,6 +107,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="bootleggersrom/prebuilts_clang_host_linux-x86" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/rust" name="bootleggersrom/prebuilts_rust" remote="gitlab" revision="thirteen" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="bootleggers" />
