@@ -7,7 +7,7 @@
 
   <!-- CodeLinaro additions -->
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <!--<project path="vendor/nxp/nfc" name="ArrowOS/android_vendor_nxp_nfc" remote="github" revision="arrow-13.0" />
+  <project path="vendor/nxp/nfc" name="ArrowOS/android_vendor_nxp_nfc" remote="github" revision="arrow-13.0" />
   <project path="vendor/nxp/secure_element" name="ArrowOS/android_vendor_nxp_secure_element" remote="github" revision="arrow-13.0" />
   <project path="vendor/nxp/secure_element_extns" name="ArrowOS/android_vendor_nxp_secure_element_extns" remote="github" revision="arrow-13.0" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="ArrowOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="arrow-13.0" />
@@ -17,7 +17,7 @@
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="arrow-13.0-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="arrow-13.0-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-sn100x" /> -->
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-sn100x" />
   <project path="vendor/qcom/opensource/audio" remote="lineage" name="android_vendor_qcom_opensource_audio" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
